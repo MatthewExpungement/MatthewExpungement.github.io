@@ -1,8 +1,36 @@
 <html>
 <head>
-    <title>This is the title</title>
+    <title>C4L Basic Website</title>
+    <style>
+        .key_class{
+            color:red;
+        }
+        .value_class{
+            color:blue;
+        }
+    </style>
 </head>
 <body>
+<h1>Welcome to the Coding for Lawyer's Website</h1>
+<p id="sub_title">Feel free to try and webscrape this website.</p>
+
+<p>Lesson 1: Get the date from below.</p>
+<div id="timestamp_div">
+    <p>Last updated on <span id="timestamp">3/30/2023</span></p>
+</div>
+<p>Lesson 2: Scrape the case titles and the urls to the actual website from the list of cases below.</p>
+<div id="cases">
+    <p><a href='https://supreme.justia.com/cases/federal/us/388/1/'>Loving v. Virginia, 388 U.S. 1 (1967)</a></p>
+    <p><a href='https://supreme.justia.com/cases/federal/us/5/137/'>Marbury v. Madison, 5 U.S. 137 (1803)</a></p>
+    <p><a href='https://supreme.justia.com/cases/federal/us/347/483/'>Brown v. Board of Education of Topeka, 347 U.S. 483 (1954)</a></p>
+</div>
+<p>Lesson 3: Create a dictionary using the information below. The key should be the text in red and the value should be the text in blue.</p>
+
+<div id="case_information">
+    <p><span class="key_class">Case Number:</span><span class="value_class">8675409</span></p>
+    <p><span class="key_class">Defendant:</span><span class="value_class">John Smith</span></p>
+    <p><span class="key_class">Charge:</span><span class="value_class">Murder</span></p>
+</div>
 
 </body>
 </html>
